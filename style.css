@@ -739,3 +739,130 @@ textarea.form-control {
 .btn:hover span {
     color: var(--text-color);
 }
+/* Mobil Cihazlar İçin Medya Sorguları */
+@media only screen and (max-width: 768px) {
+    .header {
+        padding: 2.4rem 5%;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        gap: 2rem;
+        position: absolute;
+        top: 6rem;
+        left: 0;
+        width: 100%;
+        padding: 2rem 0;
+        background-color:
+
+@media only screen and (max-width: 768px) {
+    .header {
+        padding: 2.4rem 5%;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        gap: 2rem;
+        position: absolute;
+        top: 6rem;
+        left: 0;
+        width: 100%;
+        padding: 2rem 0;
+        background-color: rgba(0, 7, 10, 0.3);
+        backdrop-filter: blur(10px);
+        z-index: 10;
+        text-align: center;
+        border-bottom: 3px solid var(--main-color);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    .navbar a {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    #menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .home-content h1 {
+        font-size: 4rem;
+    }
+
+    .home-content h3 {
+        font-size: 3rem;
+    }
+
+    .home-img img {
+        width: 70%;
+        max-width: 250px;
+    }
+
+    .text-animation {
+        font-size: 2.4rem;
+    }
+
+    .rating i {
+        color: gold;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header {
+        padding: 1.5rem 2%;
+    }
+
+    .logo {
+        font-size: 2.5rem;
+    }
+
+    .navbar a {
+        font-size: 1.8rem;
+        margin: 0.5rem 0;
+    }
+
+    .home-content h1 {
+        font-size: 3rem;
+    }
+
+    .home-content h3 {
+        font-size: 2.5rem;
+    }
+
+    .home-img img {
+        width: 80%;
+        max-width: 200px;
+    }
+
+    .home-content p {
+        font-size: 1.4rem;
+    }
+
+    .text-animation {
+        font-size: 1.8rem;
+    }
+
+    .services h2,
+    .testimonials h2 {
+        font-size: 3rem;
+    }
+
+    .service-info h4 {
+        font-size: 2rem;
+    }
+
+    .form-control {
+        font-size: 1.4rem;
+    }
+
+    .btn {
+        font-size: 1.4rem;
+    }
+}
